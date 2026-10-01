@@ -1,0 +1,302 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análise de Dados Educacionais",
+    "section": "",
+    "text": "Apresentação\nSeja muito bem-vindo ao curso de Análise de Dados Educacionais!\nEste material foi desenvolvido por docentes do Departamento Acadêmico de Estatística da UTFPR (DAEST-CT) com o objetivo de apoiar sua formação no uso da linguagem R para trabalhar com dados educacionais.\nAo longo do curso, você aprenderá a importar e organizar bases de dados, realizar tratamentos e análises, construir visualizações, aplicar métodos estatísticos e produzir relatórios de forma automatizada.\nMais do que aprender comandos do R, a proposta é desenvolver uma forma estruturada de trabalhar com dados: partir de uma pergunta, explorar as informações disponíveis, identificar padrões, construir indicadores e transformar os resultados em informações úteis para apoiar a tomada de decisão.",
+    "crumbs": [
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "index.html#estrutura-do-curso",
+    "href": "index.html#estrutura-do-curso",
+    "title": "Análise de Dados Educacionais",
+    "section": "Estrutura do curso",
+    "text": "Estrutura do curso\nO curso está organizado em cinco módulos temáticos, totalizando 80 horas:\n\n\n\nMódulo\nTema\nCarga Horária\n\n\n\n\n1\nIntrodução ao R e RStudio\n10 h\n\n\n2\nManipulação e Automação de Dados\n20 h\n\n\n3\nVisualização de Dados\n8 h\n\n\n4\nEstatística Aplicada\n26 h\n\n\n5\nAnálise de Dados com R\n16 h\n\n\n—\nTotal\n80 h\n\n\n\nAo longo desses módulos, os conteúdos avançam gradualmente: começamos pelos fundamentos da linguagem R e evoluímos até a construção de análises, indicadores, visualizações e produtos capazes de apoiar situações reais de trabalho com dados educacionais.",
+    "crumbs": [
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "index.html#como-usar-este-material",
+    "href": "index.html#como-usar-este-material",
+    "title": "Análise de Dados Educacionais",
+    "section": "Como usar este material",
+    "text": "Como usar este material\n\nOs blocos de código podem ser copiados diretamente para o RStudio.\nOs blocos Conceito (azuis) apresentam definições e ideias fundamentais.\nOs blocos Dica (verdes) trazem sugestões práticas que podem facilitar seu trabalho.\nOs blocos Atenção (amarelos) destacam situações que merecem cuidado e erros comuns.\nOs blocos Experimente e as seções Pratique no navegador permitem executar códigos diretamente nesta página, sem instalar nada. Você pode editar o código e clicar em Executar código para observar o resultado.\nNos exercícios, os botões Mostrar dica e Mostrar solução exibem uma dica e a resposta; se necessário, o código é corrigido automaticamente.\nOs blocos Verifique seu entendimento apresentam perguntas rápidas e interativas para ajudá-lo a acompanhar sua própria aprendizagem. Após responder, você receberá uma indicação de acerto ou erro e poderá consultar a explicação da resposta (botão Ver explicação).\nO Editor de R, também disponível no menu lateral, permite utilizar o R diretamente no navegador e já contém os dados utilizados no curso. Ele pode ser especialmente útil para seus primeiros contatos com a linguagem ou para praticar quando o R e o RStudio não estiverem disponíveis em seu computador.\nAo final de cada módulo, você encontrará exercícios de aplicação utilizando as bases de dados do curso. As soluções comentadas estão disponíveis no ?sec-solucoes e são protegidas por uma senha fornecida pelo instrutor do curso.",
+    "crumbs": [
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "index.html#pré-requisitos",
+    "href": "index.html#pré-requisitos",
+    "title": "Análise de Dados Educacionais",
+    "section": "Pré-requisitos",
+    "text": "Pré-requisitos\n\nComputador com Windows 10 ou superior, Linux ou macOS.\nR ≥ 4.3 instalado.\nRStudio Desktop instalado.\nAcesso à internet para instalação de pacotes.\n\nCaso você ainda não possa instalar o R e o RStudio, poderá iniciar as atividades utilizando o Editor de R, que funciona diretamente no navegador.",
+    "crumbs": [
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "index.html#pacotes-e-dados",
+    "href": "index.html#pacotes-e-dados",
+    "title": "Análise de Dados Educacionais",
+    "section": "Pacotes e dados",
+    "text": "Pacotes e dados\nNo início de cada módulo, você encontrará a relação dos pacotes do R utilizados nas atividades e, quando necessário, um bloco de código para instalar automaticamente aqueles que ainda não estiverem disponíveis em seu computador.\nOs arquivos de dados utilizados nos exemplos e exercícios também serão disponibilizados ao longo do material para download.",
+    "crumbs": [
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "index.html#licença-e-citação",
+    "href": "index.html#licença-e-citação",
+    "title": "Análise de Dados Educacionais",
+    "section": "Licença e citação",
+    "text": "Licença e citação\nEste material está licenciado sob a Creative Commons Atribuição 4.0 Internacional (CC BY 4.0).\nVocê pode copiar, adaptar e redistribuir seu conteúdo, inclusive para utilização em outros cursos, desde que a fonte seja devidamente citada:\n\nRibeiro, A. M. T.; Bertoli, W. Análise de Dados Educacionais: Curso de Capacitação com ênfase na Linguagem R. Curitiba, 2026.\n\n\n“Sem dados você é apenas mais uma pessoa com uma opinião.”\n— W. Edwards Deming.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAllaire, J. J., C. Teague, C. Scheidegger, Y. Xie, e C. Dervieux. 2024. Quarto. Released. https://doi.org/10.5281/zenodo.5960048.",
+    "crumbs": [
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html",
+    "href": "01-introducao.html",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "",
+    "text": "2 Sobre o R e o RStudio\nMódulo: 1 | Carga horária: 10 horas.\nObjetivos de aprendizagem. Ao final deste módulo, você será capaz de:\nPacotes utilizados. A maior parte deste módulo utiliza apenas funções do próprio R. Para ilustrar o processo de instalação de pacotes, utilizaremos o tidyverse, uma coleção voltada à importação, manipulação e visualização de dados que reúne pacotes como dplyr, ggplot2 e readr, entre outros.\nA instalação do tidyverse também instala os principais pacotes que compõem essa coleção. A instalação e o carregamento de pacotes serão abordados no Capítulo 5.\nConjunto de dados utilizado no módulo. Os exemplos e exercícios utilizam uma base fictícia de estudantes e escolas estaduais do Paraná, criada para reproduzir situações comuns encontradas em bases reais:\nPara acompanhar os exemplos e exercícios no RStudio, baixe o arquivo e salve-o na pasta data/raw do seu projeto. A criação de um projeto será explicada no Capítulo 5. No Editor de R, o arquivo já está disponível.\nO R é uma linguagem de programação voltada à análise de dados, à estatística e à produção de resultados reproduzíveis. Algumas características ajudam a explicar sua ampla utilização:\nO RStudio não é a linguagem R. Ele é um ambiente de desenvolvimento que reúne, em uma única interface, editor de código, console, visualização de objetos, gráficos e documentação. Na prática, instalamos os dois: o R executa os comandos, enquanto o RStudio oferece um ambiente mais organizado para trabalhar com eles.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#o-que-dá-para-fazer-com-r",
+    "href": "01-introducao.html#o-que-dá-para-fazer-com-r",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "2.1 O que dá para fazer com R",
+    "text": "2.1 O que dá para fazer com R\nAo longo deste curso, você verá que o R pode apoiar diferentes etapas do trabalho com dados educacionais. Entre outras possibilidades, ele permite:\n\nimportar, organizar e transformar dados.\nproduzir relatórios que podem ser atualizados quando os dados mudam.\nconstruir gráficos, painéis e outras visualizações.\nrealizar análises estatísticas.\nautomatizar tarefas repetitivas.\n\nEste material, por exemplo, foi produzido com Quarto e utiliza o R para gerar resultados, exemplos e atividades interativas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#onde-buscar-ajuda",
+    "href": "01-introducao.html#onde-buscar-ajuda",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "2.2 Onde buscar ajuda",
+    "text": "2.2 Onde buscar ajuda\nAprender R não significa memorizar todas as funções. Saber onde procurar e como consultar a documentação é parte importante do processo.\n\n\n\nTipo\nMaterial\n\n\n\n\nLivro de referência (gratuito, em inglês)\nR for Data Science (Wickham et al. 2023)\n\n\nMaterial em português\nMateriais gratuitos da Curso-R\n\n\nMaterial em português\nEstatística Computacional com R (LEG/UFPR)\n\n\nPerguntas e respostas\nStack Overflow\n\n\nNotícias e tutoriais\nR-bloggers\n\n\nReferência rápida\nCheatsheets da Posit",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#interface-e-painéis",
+    "href": "01-introducao.html#interface-e-painéis",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "4.1 Interface e painéis",
+    "text": "4.1 Interface e painéis\nO RStudio está dividido em quatro painéis principais:\n\n\n\n\n\n\n\n\nPainel\nLocalização padrão\nFunção\n\n\n\n\nEditor de scripts\nSuperior esquerdo\nEscrever, organizar e salvar código\n\n\nConsole\nInferior esquerdo\nExecutar comandos interativamente\n\n\nAmbiente / Histórico\nSuperior direito\nVisualizar objetos e comandos executados\n\n\nArquivos / Gráficos / Pacotes / Ajuda\nInferior direito\nNavegar por arquivos, gráficos, pacotes e documentação\n\n\n\n\n\n\n\n  \n    Editor de scriptsescrever e salvar o código\n  \n  \n    Environment / Historyobjetos e comandos da sessão\n  \n  \n    Consoleexecutar e ver os resultados\n  \n  \n    Files / Plots / Packages / Helparquivos, gráficos e ajuda\n  \n  ↓ Ctrl + Enter\n  ↗\n  →\n\nClique em um painel para destacar a explicação dele logo abaixo.\n\n\n\nFigura 4.1: Os quatro painéis do RStudio e o caminho do código.\n\n\n\n\nEditor de scripts (superior esquerdo). É onde normalmente escrevemos, organizamos e salvamos os códigos utilizados nas análises. Crie um novo script em File → New File → R Script.\n\n\nConsole (inferior esquerdo). É onde o R executa os comandos. Digite uma instrução e pressione Enter. O console é útil para testes rápidos, consultas e verificações, mas o que é digitado nele não fica salvo em um arquivo.\n&gt; 100 + 50\n[1] 150\n&gt;\n\n\nAmbiente e Histórico (superior direito).\n\nEnvironment lista os objetos disponíveis na sessão, como vetores, tabelas e funções.\nHistory registra os comandos já executados.\nConnections permite estabelecer conexões com fontes externas de dados, assunto que será retomado em módulos posteriores.\n\n\nls()             # lista os objetos da sessão\nrm(x)            # remove um objeto\nrm(list = ls())  # remove todos os objetos da sessão\n\n\n\nArquivos, Gráficos, Pacotes e Ajuda (inferior direito).\n\nFiles: navegação pelos arquivos do projeto.\nPlots: exibição dos gráficos gerados.\nPackages: visualização dos pacotes instalados e carregados.\nHelp: documentação das funções.\nViewer: exibição de páginas HTML e outros conteúdos interativos.\n\n\n\n\n\n\n\n\nDicaDica\n\n\n\nUse Ctrl + Enter para executar, no console, a linha atual ou a seleção feita no editor. Esse será um dos atalhos mais utilizados ao longo do curso.\n\n\nOutros atalhos úteis:\n\n# Ctrl + Shift + N  → Novo script\n# Ctrl + S          → Salvar script\n# Alt + -           → Operador de atribuição  &lt;-\n# Ctrl + L          → Limpar o console\n# F1                → Abrir a ajuda da função sob o cursor\n# Esc               → Cancelar um comando incompleto\n# Seta para cima    → Recuperar o último comando executado",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#ajuda-e-documentação",
+    "href": "01-introducao.html#ajuda-e-documentação",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "4.2 Ajuda e documentação",
+    "text": "4.2 Ajuda e documentação\nVocê não precisa memorizar todos os argumentos de uma função. Consultar a documentação faz parte do trabalho cotidiano com R.\n\n?mean              # abre a ajuda da função\nhelp(mean)         # forma equivalente\nexample(mean)      # executa exemplos da documentação\nargs(mean)         # mostra os argumentos da função\n\n??\"standard deviation\"  # busca por assunto, em inglês\n\nsearch()           # mostra os pacotes carregados na sessão\n\nAs páginas de ajuda seguem uma estrutura relativamente padronizada: descrição, forma de uso (Usage), argumentos (Arguments), detalhes, valor retornado (Value) e exemplos.\nA documentação do R é escrita principalmente em inglês. Por isso, buscas com ?? devem utilizar termos nesse idioma. Por exemplo, ??\"standard deviation\" ajuda a localizar funções relacionadas ao desvio padrão.\n\n\n\n\n\n\nDicaDica\n\n\n\nCom o cursor sobre o nome de uma função no editor, pressione F1 para abrir a ajuda. Ao digitar o nome de uma função seguido de (, o RStudio também pode sugerir seus argumentos.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#sec-erros-console",
+    "href": "01-introducao.html#sec-erros-console",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "4.3 Corrigindo erros no console",
+    "text": "4.3 Corrigindo erros no console\nQuando um comando fica incompleto, o console troca o sinal &gt; por + e aguarda o restante da expressão:\n&gt; 4 + 3 +\n+\n+\n\n\n\n\n\n\nAvisoAtenção\n\n\n\nNo console, não é possível voltar o cursor para uma linha já enviada e corrigi-la. Pressionar Enter novamente apenas acrescenta outra linha ao comando incompleto.\n\n\nPara sair dessa situação:\n\npressione Esc para cancelar o comando.\npressione a seta para cima para recuperar o comando anterior.\ncorrija a expressão e execute novamente.\n\n\n\n\n\n\n\nDicaDica\n\n\n\nSempre que o código tiver mais de uma etapa ou precisar ser reutilizado, prefira escrevê-lo no editor de scripts. Assim, você pode corrigir, salvar e executar novamente o mesmo código.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#entendendo-as-mensagens-de-erro",
+    "href": "01-introducao.html#entendendo-as-mensagens-de-erro",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "4.4 Entendendo as mensagens de erro",
+    "text": "4.4 Entendendo as mensagens de erro\nAlgumas mensagens de erro que são comuns no R:\n\n\n\n\n\n\n\n\nMensagem\nO que significa\nComo resolver\n\n\n\n\nobjeto 'x' não encontrado\nO objeto não existe na sessão\nConfira a grafia e se a linha que cria o objeto foi executada\n\n\nnão foi possível encontrar a função \"filter\"\nA função não está disponível na sessão\nVerifique se o pacote correspondente foi carregado e se o nome da função está correto\n\n\nunexpected symbol / unexpected ')'\nHá um problema de sintaxe\nConfira vírgulas, parênteses e aspas\n\n\nO console mostra + e não responde\nO comando está incompleto\nPressione Esc\n\n\n\n\n\n\n\n\n\nNotaConceito\n\n\n\nUma distinção útil: um erro interrompe a execução; um aviso (warning) permite que o código termine, mas informa que algo merece atenção; uma mensagem é apenas informativa.\n\n\n\n\n\n\n\n\nDicaExperimente\n\n\n\nExecute o bloco abaixo e leia a mensagem de erro. Depois, corrija o código retirando o comentário da linha que cria o objeto.\n\n\n\n\n\n\n\n\n\n\nAgora localize o erro de digitação no bloco seguinte:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportanteVerifique seu entendimento\n\n\n\n1. Em qual painel do RStudio você escreve um código que quer guardar para usar novamente?\n\n Console Editor de scripts Environment Plots\n\n\n\nVer explicação\n\nNo editor de scripts. O console executa comandos interativamente, mas não os salva em um arquivo.\n\n2. Qual comando mostra a documentação da função sd()?\n\n sd() ?sd help search(sd)\n\n\n\nVer explicação\n\n?sd abre a ajuda da função. A forma help(sd) é equivalente.\n\n3. Você executou um código e apareceu Error: objeto 'notas' não encontrado. O que mais provavelmente aconteceu?\n\n A linha que cria o objeto não foi executada, ou o nome está escrito de outro jeito O arquivo CSV está corrompido É preciso reinstalar o R O gráfico ainda não foi criado\n\n\n\nVer explicação\n\nO objeto não existe na sessão. Confira se a linha que o cria foi executada e lembre-se de que o R diferencia maiúsculas de minúsculas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#criando-um-projeto-rstudio",
+    "href": "01-introducao.html#criando-um-projeto-rstudio",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "5.1 Criando um Projeto RStudio",
+    "text": "5.1 Criando um Projeto RStudio\nPara criar um projeto no RStudio, siga estas etapas:\n\nAcesse File → New Project → New Directory → New Project.\nEscolha um nome descritivo, como analise_seed.\nMarque Open in new session, se essa opção estiver disponível.\n\nAo abrir um projeto, o RStudio passa a utilizar a pasta do projeto como referência para os caminhos dos arquivos. Isso evita a necessidade de escrever caminhos completos específicos de um computador e facilita a organização e a reprodução das análises.\n\n\n\n\n\n\nNotaDiretório de trabalho\n\n\n\nO R sempre possui um diretório de trabalho, isto é, uma pasta utilizada como referência para localizar e salvar arquivos. A função setwd() permite alterar manualmente esse diretório: setwd(\"caminho/para/a/pasta\").\nQuando trabalhamos com um Projeto RStudio, porém, normalmente não precisamos utilizar setwd(). Ao abrir o projeto, sua pasta principal já é definida como referência para o trabalho. Assim, podemos utilizar caminhos relativos, como data/raw/alunos_2023.csv, tornando o código mais fácil de compartilhar e executar em diferentes computadores.\n\n\nUma estrutura inicial recomendada para organizar um projeto é apresentada na sequência.\nanalise_seed/\n├── data/\n│   ├── raw/          # dados originais\n│   └── processed/    # dados tratados\n├── scripts/          # scripts R\n├── outputs/\n│   ├── graficos/\n│   └── relatorios/\n├── docs/             # documentação e metadados\n└── analise_seed.Rproj\n\n\n\n\n\n\nAvisoAtenção\n\n\n\nA pasta data/raw deve guardar os dados originais. Sempre que possível, evite alterar esses arquivos manualmente. As transformações devem ser feitas por código e os resultados podem ser salvos em data/processed.\n\n\n\n# Criando vários diretórios de trabalho\ndir.create(\"data/raw\", recursive = TRUE)\ndir.create(\"data/processed\", recursive = TRUE)\ndir.create(\"scripts\")\ndir.create(\"outputs/graficos\", recursive = TRUE)\ndir.create(\"outputs/relatorios\", recursive = TRUE)\ndir.create(\"docs\")\n\n\n\n\n\n\n\n\n\nFigura 5.1: Fluxo básico dos dados em um projeto organizado.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#scripts-em-r",
+    "href": "01-introducao.html#scripts-em-r",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "5.2 Scripts em R",
+    "text": "5.2 Scripts em R\nUm script em R é um arquivo de texto que guarda uma sequência de comandos do R. Ele permite registrar cada etapa de uma análise e executá-la novamente quando necessário.\nUma organização possível é:\nscripts/\n├── 01_importar_dados.R\n├── 02_tratar_dados.R\n├── 03_analisar_dados.R\n└── 04_gerar_resultados.R\nComentários começam com # e servem para descrever ações, registrar justificativas e explicar decisões importantes ao longo do código.\n\n# Carregar a base original sem alterar o arquivo de origem\nbase &lt;- read.csv(\"data/raw/alunos_2023.csv\")",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#pacotes-instalar-carregar-e-usar",
+    "href": "01-introducao.html#pacotes-instalar-carregar-e-usar",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "5.3 Pacotes: instalar, carregar e usar",
+    "text": "5.3 Pacotes: instalar, carregar e usar\nDepois de instalar o R e o RStudio, podemos ampliar seus recursos por meio de pacotes, que reúnem funções e ferramentas adicionais. É importante distinguir duas etapas: instalar e carregar um pacote.\n\n# Instalar: normalmente é necessário apenas uma vez\ninstall.packages(\"tidyverse\")\n\n# Instalar vários pacotes de uma vez\ninstall.packages(c(\"dplyr\", \"ggplot2\", \"readr\"))\n\n# Carregar: normalmente é feito a cada nova sessão\nlibrary(tidyverse)\n\nTambém é possível utilizar uma função específica de um pacote sem carregá-lo na sessão atual. Para isso, usamos a notação pacote::funcao, que indica explicitamente de qual pacote a função deve ser utilizada.\n\nreadr::read_table\ndplyr::filter\n\nNão se preocupe ainda com essas funções! Elas serão apresentadas nos módulos em que começarmos a importar e manipular dados com o tidyverse.\nEssa mesma notação pode ser utilizada em diferentes situações, como ilustrado no exemplo a seguir.\n\n# Instalar um pacote a partir de um repositório do GitHub\ninstall.packages(\"remotes\")\nremotes::install_github(\"usuario/repositorio\")\n\n\n\n\n\n\n\nAvisoAtenção\n\n\n\nEvite incluir install.packages() ou install.github() em scripts de análise que serão executados rotineiramente. A instalação prepara o ambiente; o script de análise deve se concentrar no trabalho com os dados.\n\n\nPara consultar os pacotes instalados e, quando necessário, atualizá-los, podemos utilizar:\n\n# Identificar os pacotes instalados\ninstalled.packages()[, \"Package\"]\n\n# Atualizar todos os pacotes instalados\nupdate.packages()\n\n\n\n\n\n\n\nImportanteVerifique seu entendimento\n\n\n\n1. Verdadeiro ou falso: usar um Projeto RStudio permite trabalhar com caminhos relativos, evitando setwd() com um caminho específico do computador. VerdadeiroFalso\n\n\nVer explicação\n\nVerdadeiro. O projeto define uma referência comum para os arquivos e facilita a reutilização do código em outros computadores.\n\n2. Qual comando deve ser usado para carregar um pacote já instalado?\n\n install.packages() library() dir.create() read.csv()\n\n\n\nVer explicação\n\nlibrary() carrega um pacote instalado na sessão atual. install.packages() é utilizado para instalar o pacote.\n\n3. Em qual pasta devem permanecer os arquivos originais que não serão alterados manualmente?\n\n data/raw/ data/processed/ outputs/ scripts/\n\n\n\nVer explicação\n\ndata/raw/ guarda os dados originais. As transformações podem gerar novos arquivos em data/processed/.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#operações-aritméticas",
+    "href": "01-introducao.html#operações-aritméticas",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "6.1 Operações aritméticas",
+    "text": "6.1 Operações aritméticas\nNo nível mais simples, o R pode ser utilizado como uma calculadora.\n\n2 + 3      # soma\n\n#&gt; [1] 5\n\n10 - 4     # subtração\n\n#&gt; [1] 6\n\n5 * 2      # multiplicação\n\n#&gt; [1] 10\n\n9 / 3      # divisão\n\n#&gt; [1] 3\n\n2^3        # potência\n\n#&gt; [1] 8\n\nsqrt(16)   # raiz quadrada\n\n#&gt; [1] 4\n\n10 %% 3    # resto da divisão\n\n#&gt; [1] 1\n\n10 %/% 3   # parte inteira da divisão\n\n#&gt; [1] 3\n\n\nA ordem de prioridade segue a matemática: primeiro os parênteses, depois as potências, em seguida multiplicações e divisões e, por último, somas e subtrações.\n\n2 + 3 * 4\n\n#&gt; [1] 14\n\n(2 + 3) * 4\n\n#&gt; [1] 20\n\n2 * 5^2\n\n#&gt; [1] 50\n\n(2 * 5)^2\n\n#&gt; [1] 100\n\n\n\n\n\n\n\n\nDicaDica\n\n\n\nNa dúvida, use parênteses! Além de controlar a ordem das operações, eles deixam a intenção do código mais clara.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#criando-objetos",
+    "href": "01-introducao.html#criando-objetos",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "6.2 Criando objetos",
+    "text": "6.2 Criando objetos\nUm objeto guarda um valor para que ele possa ser utilizado posteriormente. A atribuição é feita, preferencialmente, com &lt;-:\n\nmedia_turma &lt;- 7.2\nn_alunos &lt;- 32\n\nmedia_turma * n_alunos\n\n#&gt; [1] 230.4\n\n\nComo visto anteriormente, o atalho Alt + - insere &lt;- no RStudio. Por outro lado, escrever o nome do objeto mostra seu conteúdo:\n\nmedia_turma\n\n#&gt; [1] 7.2\n\nn_alunos\n\n#&gt; [1] 32\n\n\nTambém é possível atribuir e mostrar o resultado ao mesmo tempo:\n\n(total_faltas &lt;- 15 + 8 + 22)\n\n#&gt; [1] 45",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#nomeando-objetos",
+    "href": "01-introducao.html#nomeando-objetos",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "6.3 Nomeando objetos",
+    "text": "6.3 Nomeando objetos\nAo criar objetos no R, é importante seguir algumas regras de nomenclatura:\n\no nome não pode começar por um número.\nespaços e símbolos como @, #, $ e - não devem ser utilizados.\no R diferencia letras maiúsculas de minúsculas (case-sensitive).\npalavras reservadas da linguagem não podem ser utilizadas como nomes de objetos.\n\nAlgumas palavras possuem significado especial no R e, por isso, são reservadas pela linguagem. A tabela a seguir apresenta as principais, organizadas de acordo com sua função.\n\n\n\n\n\n\n\nGrupo\nPalavras reservadas\n\n\n\n\nControle de fluxo e programação\nif, else, repeat, while, function, for, in, next, break\n\n\nValores lógicos e ausência de objeto\nTRUE, FALSE, NULL\n\n\nValores especiais e constantes de ausência\nInf, NaN, NA, NA_integer_, NA_real_, NA_complex_, NA_character_\n\n\n\nObserve alguns exemplos:\n\nmedia_2023 &lt;- 7.5  # válido\n2023_media &lt;- 7.5  # erro: começa com número\nmedia-2023 &lt;- 7.5  # interpretado como subtração\nNULL &lt;- 7.5        # erro: palavra reservada\n\nAlém de criar nomes válidos, é importante adotar nomes claros, descritivos e consistentes. Neste curso, utilizaremos preferencialmente a convenção snake_case:\n\nnumero_alunos &lt;- 1250\ntaxa_aprovacao &lt;- 0.87\nnome_escola &lt;- \"Colégio Estadual A\"\n\nNomes como x ou a1 podem funcionar, mas tendem a dificultar a compreensão do código à medida que a análise se torna mais longa ou complexa.\n\n\n\n\n\n\nNotaConceito\n\n\n\nsnake_case é uma convenção de escrita usada para nomear objetos, variáveis e colunas em programação. Nesse padrão, as palavras são escritas em letras minúsculas e separadas por sublinhados (_).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#tipos-de-dados-e-valores-especiais",
+    "href": "01-introducao.html#tipos-de-dados-e-valores-especiais",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "6.4 Tipos de dados e valores especiais",
+    "text": "6.4 Tipos de dados e valores especiais\nOs objetos do R têm tipos. Entre os mais comuns neste curso estão números, textos e valores lógicos.\n\nidade &lt;- 35\nnome &lt;- \"Ana\"\naprovado &lt;- TRUE\n\nclass(idade)\n\n#&gt; [1] \"numeric\"\n\nclass(nome)\n\n#&gt; [1] \"character\"\n\nclass(aprovado)\n\n#&gt; [1] \"logical\"\n\n\nOs valores lógicos em R são representados por TRUE e FALSE e serão especialmente importantes quando trabalharmos com condições e filtros. Além dos valores lógicos, o R possui alguns valores especiais que aparecem com frequência durante a análise de dados:\n\nNA    # dado ausente (Not Available)\n\n#&gt; [1] NA\n\nNaN   # resultado numérico indefinido, como 0/0\n\n#&gt; [1] NaN\n\nInf   # infinito, como 1/0\n\n#&gt; [1] Inf\n\nNULL  # ausência de valor ou de objeto\n\n#&gt; NULL\n\n\nPara verificar valores ausentes, use a função is.na():\n\nis.na(c(7, NA, 8, 9))\n\n#&gt; [1] FALSE  TRUE FALSE FALSE\n\n\n\n\n\n\n\n\nNotaConceito\n\n\n\nNA representa um dado ausente. Ele não significa zero, nem uma resposta negativa. Se uma nota não foi registrada, por exemplo, o mais adequado é representar essa ausência como NA.\n\n\nA tabela a seguir resume os principais tipos de dados e valores especiais apresentados nesta seção. Use-a como uma referência rápida durante os exercícios e nas próximas atividades do curso.\n\n\n\nElemento\nSignificado\n\n\n\n\nnumeric\nValores numéricos, incluindo inteiros e decimais\n\n\ncharacter\nTextos e cadeias de caracteres\n\n\nlogical\nValores lógicos: TRUE ou FALSE\n\n\nNA\nDado ausente ou não disponível\n\n\nNaN\nResultado numérico indefinido (Not a Number)\n\n\nInf\nValor infinito\n\n\nNULL\nAusência de valor ou de objeto",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#conversão-de-tipos",
+    "href": "01-introducao.html#conversão-de-tipos",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "6.5 Conversão de tipos",
+    "text": "6.5 Conversão de tipos\nEm algumas situações, será necessário converter um objeto de um tipo para outro:\n\nx &lt;- \"42\"\nclass(x)\n\n#&gt; [1] \"character\"\n\nas.numeric(x)\n\n#&gt; [1] 42\n\ny &lt;- 1\nas.logical(y)\n\n#&gt; [1] TRUE\n\n\nNem toda conversão é possível! Quando o R não consegue converter um valor, ele pode retornar NA e emitir um aviso.\n\nz &lt;- \"Ana\"\nas.numeric(z)\n\n#&gt; [1] NA",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#comparações-e-operadores-lógicos",
+    "href": "01-introducao.html#comparações-e-operadores-lógicos",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "6.6 Comparações e operadores lógicos",
+    "text": "6.6 Comparações e operadores lógicos\nEm R, as comparações retornam um valor lógico (TRUE ou FALSE).\n\n\n\nOperador\nSignificado\nExemplo\nResultado\n\n\n\n\n==\nigual a\n7 == 7\nTRUE\n\n\n!=\ndiferente de\n7 != 5\nTRUE\n\n\n&gt;\nmaior que\n7 &gt; 5\nTRUE\n\n\n&lt;\nmenor que\n7 &lt; 5\nFALSE\n\n\n&gt;=\nmaior ou igual\n7 &gt;= 7\nTRUE\n\n\n&lt;=\nmenor ou igual\n7 &lt;= 5\nFALSE\n\n\n\nOs operadores lógicos combinam condições:\n\n& (E): verdadeiro quando as duas condições são verdadeiras.\n| (OU): verdadeiro quando pelo menos uma condição é verdadeira.\n! (NÃO): inverte o resultado lógico.\n\nObserve os exemplos:\n\nnota &lt;- 6.5\nfrequencia &lt;- 80\n\nnota &gt;= 6 & frequencia &gt;= 75\n\n#&gt; [1] TRUE\n\nnota &gt;= 6 | frequencia &gt;= 75\n\n#&gt; [1] TRUE\n\n!(nota &gt;= 6)\n\n#&gt; [1] FALSE\n\n\n\n\n\n\n\n\nAvisoAtenção\n\n\n\nNão confunda = com ==. Dois sinais de igualdade são utilizados para comparar valores.\n\n\n\n\n\n\n\n\nAvisoAtenção\n\n\n\nExistem também os operadores && e ||, utilizados principalmente em condições que envolvem um único resultado lógico de cada lado da expressão. Eles serão retomados no Módulo 2, quando estudarmos estruturas condicionais.\nPara filtrar tabelas e trabalhar com vetores de valores lógicos, utilize as versões com um único sinal: & e |.\n\n\n\n\n\n\n\n\nDicaExperimente\n\n\n\nAltere os valores de nota e frequencia e observe como os resultados lógicos mudam.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportanteVerifique seu entendimento\n\n\n\n1. Quanto vale 2 + 3 * 4? \n\n\nVer explicação\n\n\nA multiplicação tem prioridade sobre a soma. Para obter 20, seria necessário escrever (2 + 3) * 4.\n\n\n2. Qual destes nomes de objeto causa erro no R?\n\n media_2023 2023_media media_aluno taxa_aprovacao\n\n\n\nVer explicação\n\nNomes de objetos não podem começar por número.\n\n3. O que is.na() verifica?\n\n Se um objeto é numérico Se há valores ausentes Se um texto está vazio Se um pacote está instalado\n\n\n\nVer explicação\n\nis.na() identifica valores representados por NA.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#vetores",
+    "href": "01-introducao.html#vetores",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "7.1 Vetores",
+    "text": "7.1 Vetores\nO vetor é uma das estruturas fundamentais do R. Ele armazena uma sequência de elementos do mesmo tipo.\n\nnotas &lt;- c(7.5, 8.0, 6.5, 9.0, 5.5)\n\nnotas\n\n#&gt; [1] 7.5 8.0 6.5 9.0 5.5\n\nnotas * 10\n\n#&gt; [1] 75 80 65 90 55\n\nnotas[notas &gt;= 7]\n\n#&gt; [1] 7.5 8.0 9.0\n\nmean(notas)\n\n#&gt; [1] 7.3\n\nsd(notas)\n\n#&gt; [1] 1.350926\n\n\nAs operações são aplicadas diretamente aos elementos do vetor, sem a necessidade de percorrê-lo um a um.\n\n\n\n\n\n\nDicaExperimente\n\n\n\nO bloco abaixo roda no navegador. Altere os valores e clique em Executar código.\n\n\n\n\n\n\n\n\n\n\n\n1. O vetor matriculas traz o número de estudantes de cinco escolas. Selecione apenas as escolas com mais de 400 estudantes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDentro dos colchetes, escreva uma condição lógica sobre o próprio vetor, como matriculas &gt; 400.\n\n\n\n\n2. Vetores podem ter nomes. Descubra quantos estudantes há na escola Primavera, usando o nome e não a posição.\n\n\n\n\n\n\n\n\n\nOs nomes do vetor aparecem com names(matriculas). Escreva o nome exatamente como está, entre aspas.\n\n\n\n\n3. Uma escola não informou o número de estudantes e aparece como NA. Calcule a média ignorando o valor ausente.\n\n\n\n\n\n\n\n\n\nA função mean() possui o argumento na.rm, que permite remover os valores ausentes antes do cálculo.\n\n\n\n\n\nNo R, também podemos criar vetores formados por caracteres e por valores lógicos (TRUE e FALSE).\n\n# Vetor de caracteres\nescolas &lt;- c(\"Colégio Estadual A\", \"Colégio Estadual B\", \"EEB C\")\n\n# Vetor lógico\naprovado &lt;- notas &gt;= 6\naprovado\n\n#&gt; [1]  TRUE  TRUE  TRUE  TRUE FALSE",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#data-frames",
+    "href": "01-introducao.html#data-frames",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "7.2 Data frames",
+    "text": "7.2 Data frames\nO data frame é a estrutura mais utilizada em análise de dados. Ele organiza informações em linhas e colunas, e cada coluna pode ter um tipo diferente.\n\nalunos &lt;- data.frame(\n  id       = 1:5,\n  nome     = c(\"Ana\", \"Bruno\", \"Carla\", \"Diego\", \"Eva\"),\n  nota     = c(8.5, 7.0, 9.2, 6.1, 7.8)\n)\n\nalunos\n\n#&gt;   id  nome nota\n#&gt; 1  1   Ana  8.5\n#&gt; 2  2 Bruno  7.0\n#&gt; 3  3 Carla  9.2\n#&gt; 4  4 Diego  6.1\n#&gt; 5  5   Eva  7.8\n\nnrow(alunos)\n\n#&gt; [1] 5\n\nncol(alunos)\n\n#&gt; [1] 3\n\ndim(alunos)\n\n#&gt; [1] 5 3\n\nstr(alunos)\n\n#&gt; 'data.frame':    5 obs. of  3 variables:\n#&gt;  $ id  : int  1 2 3 4 5\n#&gt;  $ nome: chr  \"Ana\" \"Bruno\" \"Carla\" \"Diego\" ...\n#&gt;  $ nota: num  8.5 7 9.2 6.1 7.8\n\nsummary(alunos)\n\n#&gt;        id           nome        nota     \n#&gt;  Min.   :1   Length   :5   Min.   :6.10  \n#&gt;  1st Qu.:2   N.unique :5   1st Qu.:7.00  \n#&gt;  Median :3   N.blank  :0   Median :7.80  \n#&gt;  Mean   :3   Min.nchar:3   Mean   :7.72  \n#&gt;  3rd Qu.:4   Max.nchar:5   3rd Qu.:8.50  \n#&gt;  Max.   :5                 Max.   :9.20\n\n\nPara acessar partes de um data frame faça:\n\nalunos$nota\n\n#&gt; [1] 8.5 7.0 9.2 6.1 7.8\n\nalunos[[\"nome\"]]\n\n#&gt; [1] \"Ana\"   \"Bruno\" \"Carla\" \"Diego\" \"Eva\"\n\nalunos[1, ]          # primeira linha\n\n#&gt;   id nome nota\n#&gt; 1  1  Ana  8.5\n\nalunos[, \"nota\"]     # coluna nota\n\n#&gt; [1] 8.5 7.0 9.2 6.1 7.8\n\nalunos[2, \"nome\"]    # uma célula\n\n#&gt; [1] \"Bruno\"\n\nalunos[alunos$nota &gt;= 7, ]  # selecionando as linhas que atendem à condição\n\n#&gt;   id  nome nota\n#&gt; 1  1   Ana  8.5\n#&gt; 2  2 Bruno  7.0\n#&gt; 3  3 Carla  9.2\n#&gt; 5  5   Eva  7.8\n\nalunos$aprovado &lt;- alunos$nota &gt;= 7 # incluindo um vetor lógico na lista\n\n\nSelecione, do data frame alunos, apenas os estudantes marcados como aprovados.\n\n\n\n\n\n\n\n\n\n\n\n\nA coluna aprovado já é um vetor lógico: alunos$aprovado. Antes da vírgula vai a condição utilizada para selecionar as linhas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#matrizes",
+    "href": "01-introducao.html#matrizes",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "7.3 Matrizes",
+    "text": "7.3 Matrizes\nUma matriz possui linhas e colunas, mas todos os seus elementos devem ser do mesmo tipo.\n\nnotas_bim &lt;- matrix(\n  data = c(7, 8, 6, 9, 8, 7, 8, 9, 7, 6),\n  nrow = 5,\n  ncol = 2,\n  dimnames = list(\n    c(\"Ana\", \"Bruno\", \"Carla\", \"Diego\", \"Eva\"),\n    c(\"1º Bim\", \"2º Bim\")\n  )\n)\n\nnotas_bim\n\n#&gt;       1º Bim 2º Bim\n#&gt; Ana        7      7\n#&gt; Bruno      8      8\n#&gt; Carla      6      9\n#&gt; Diego      9      7\n#&gt; Eva        8      6\n\nrowMeans(notas_bim) # retorna a média das linhas da matriz\n\n#&gt;   Ana Bruno Carla Diego   Eva \n#&gt;   7.0   8.0   7.5   8.0   7.0\n\ncolMeans(notas_bim) # retorna a média das colunas da matriz\n\n#&gt; 1º Bim 2º Bim \n#&gt;    7.6    7.4\n\nnotas_bim[\"Carla\", \"2º Bim\"]\n\n#&gt; [1] 9\n\n\n\nDescubra a média de cada bimestre, isto é, a média de cada coluna de notas_bim.\n\n\n\n\n\n\n\n\n\n\n\n\nUse rowMeans() para médias das linhas e colMeans() para médias das colunas.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#listas",
+    "href": "01-introducao.html#listas",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "7.4 Listas",
+    "text": "7.4 Listas\nUma lista pode reunir objetos de tipos e tamanhos diferentes.\n\nescola_info &lt;- list(\n  nome      = \"Colégio Estadual Prof. João Silva\",\n  municipio = \"Curitiba\",\n  alunos    = 1250,\n  turnos    = c(\"Matutino\", \"Vespertino\"),\n  ativo     = TRUE\n)\n\nescola_info$nome\n\n#&gt; [1] \"Colégio Estadual Prof. João Silva\"\n\nescola_info[[\"alunos\"]]\n\n#&gt; [1] 1250\n\nescola_info[[3]]\n\n#&gt; [1] 1250\n\n\n\n\n\n\n\n\nDicaExperimente\n\n\n\nAcrescente um novo elemento à lista, como direcao = \"Maria\", e tente acessá-lo pelo nome.\n\n\n\n\n\n\n\n\n\n\n\n1. Acesse o segundo turno da escola, ou seja, o segundo elemento do vetor guardado no item turnos da lista.\n\n\n\n\n\n\n\n\n\n\n\n\n\nescola_info$turnos devolve um vetor. Depois, use colchetes simples para selecionar uma posição.\n\n\n\n\n2. Mostre apenas os nomes dos itens da lista, sem o conteúdo.\n\n\n\n\n\n\n\n\n\nA mesma função serve para ver os nomes de um vetor nomeado e os de uma lista. Em um data frame, ela devolve os nomes das colunas.\n\n\n\n\n\n\n\n\n\n\n\nImportanteVerifique seu entendimento\n\n\n\n1. Qual estrutura é mais adequada para representar uma base de dados com estudantes nas linhas e variáveis nas colunas?\n\n Vetor Data frame Matriz obrigatoriamente numérica Valor lógico\n\n\n\nVer explicação\n\nUm data frame. Ele permite organizar dados em linhas e colunas e aceita tipos diferentes entre as colunas.\n\n2. Em alunos[2, \"nome\"], o que vem antes da vírgula?\n\n A linha A coluna O nome do objeto O tipo de dado\n\n\n\nVer explicação\n\nA linha. Em um data frame ou matriz, a ordem é [linha, coluna].\n\n3. Verdadeiro ou falso: uma matriz pode ter uma coluna numérica e outra de texto sem conversão. VerdadeiroFalso\n\n\nVer explicação\n\nFalso. Uma matriz mantém um único tipo de dado. Para colunas de tipos diferentes, um data frame é mais adequado.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#uma-primeira-função",
+    "href": "01-introducao.html#uma-primeira-função",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "9.1 Uma primeira função",
+    "text": "9.1 Uma primeira função\nPara exemplificar, vamos criar uma função para calcular a média ponderada:\n\ncalcular_media_ponderada &lt;- function(notas, pesos) {\n  sum(notas * pesos) / sum(pesos)\n}\n\nnotas &lt;- c(7.0, 8.5, 6.0, 9.0)\npesos &lt;- c(1, 2, 1, 3)\n\ncalcular_media_ponderada(notas, pesos)\n\n#&gt; [1] 8.142857\n\n\nOs objetos notas e pesos são os argumentos da função. Quando chamamos calcular_media_ponderada(notas, pesos), os valores são utilizados nas operações escritas entre { e }.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#argumentos-com-valores-padrão",
+    "href": "01-introducao.html#argumentos-com-valores-padrão",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "9.2 Argumentos com valores padrão",
+    "text": "9.2 Argumentos com valores padrão\nUm argumento pode ter um valor padrão (default). Nesse caso, ele só precisa ser informado quando desejamos substituir o valor definido na função.\n\ntaxa_aprovacao &lt;- function(notas, corte = 6) {\n  mean(notas &gt;= corte)\n}\n\ntaxa_aprovacao(c(8, 5, 7, 4, 9, 6, 3))\n\n#&gt; [1] 0.5714286\n\ntaxa_aprovacao(c(8, 5, 7, 4, 9, 6, 3), corte = 7)\n\n#&gt; [1] 0.4285714\n\n\nComo TRUE é tratado como 1 e FALSE como 0 em cálculos numéricos, a média de uma condição lógica corresponde à proporção de casos em que a condição é verdadeira.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "01-introducao.html#funções-que-retornam-mais-de-uma-informação",
+    "href": "01-introducao.html#funções-que-retornam-mais-de-uma-informação",
+    "title": "1  Introdução ao R e RStudio",
+    "section": "9.3 Funções que retornam mais de uma informação",
+    "text": "9.3 Funções que retornam mais de uma informação\nA partir da estrutura de uma função, podemos organizar diferentes resultados em uma lista:\n\nresumo_turma &lt;- function(notas, corte = 6) {\n  list(\n    n_alunos = length(notas),\n    media = round(mean(notas), 2),\n    mediana = median(notas),\n    aprovados = sum(notas &gt;= corte),\n    taxa_aprovacao = round(mean(notas &gt;= corte) * 100, 1)\n  )\n}\n\nresumo &lt;- resumo_turma(c(8.5, 4.0, 7.2, 6.0, 9.1, 5.5))\nresumo$taxa_aprovacao\n\n#&gt; [1] 66.7\n\n\n\nComplete a função para que ela devolva a proporção de estudantes com frequência igual ou superior ao valor mínimo.\n\n\n\n\n\n\n\n\n\nfrequencias &gt;= minimo devolve TRUE e FALSE. A média desse vetor corresponde à proporção de TRUE.\n\n\n\n\n\n\n\n\n\n\n\nImportanteVerifique seu entendimento\n\n\n\n1. Na função taxa_aprovacao(notas, corte = 6), o que significa corte = 6?\n\n É um argumento com valor padrão, que pode ser alterado na chamada É um argumento que não pode ser alterado É o valor retornado pela função É apenas um comentário\n\n\n\nVer explicação\n\nÉ um valor padrão. Se o argumento corte não for informado, a função utilizará 6.\n\n2. Quanto vale mean(c(TRUE, FALSE, TRUE, TRUE))? \n\n\nVer explicação\n\n0,75. A média corresponde à proporção de valores TRUE.\n\n3. Qual é a principal vantagem de criar uma função?\n\n Deixar o código sempre maior Reutilizar uma mesma lógica sem repetir o código Substituir todos os data frames Evitar salvar scripts\n\n\n\nVer explicação\n\nUma função permite encapsular uma tarefa e reutilizá-la com diferentes dados ou argumentos.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução ao R e RStudio</span>"
+    ]
+  },
+  {
+    "objectID": "referencias.html",
+    "href": "referencias.html",
+    "title": "Referências",
+    "section": "",
+    "text": "Allaire, J. J., C. Teague, C. Scheidegger, Y. Xie, and C. Dervieux.\n2024. Quarto. Released. https://doi.org/10.5281/zenodo.5960048.\n\n\nR Core Team. 2026. R: A Language and Environment for Statistical\nComputing. R Foundation for Statistical Computing. https://doi.org/10.32614/R.manuals.\n\n\nWickham, H., M. Çetinkaya-Rundel, and G. Grolemund. 2023. R for Data\nScience. 2nd ed. O’Reilly Media. https://r4ds.hadley.nz.",
+    "crumbs": [
+      "Referências"
+    ]
+  }
+]
